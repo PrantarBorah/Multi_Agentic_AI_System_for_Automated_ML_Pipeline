@@ -4,43 +4,44 @@
 
 An intelligent, multi-agent system that automates the entire machine learning pipeline from data cleaning to model evaluation using CrewAI orchestration and OpenAI GPT-4o.
 
+---
+
 ## 🌟 Features
 
-- **Multi-Agent Architecture**: Specialized agents for each pipeline stage
-- **Automated Data Cleaning**: Handle missing values, outliers, and data types
-- **Intelligent EDA**: AI-powered exploratory data analysis with visualizations
-- **Smart Model Selection**: Automatic algorithm selection based on problem type
-- **Comprehensive Evaluation**: Detailed performance metrics and recommendations
-- **AI-Powered Insights**: GPT-4o generates insights and recommendations throughout
+- **Multi-Agent Architecture**: Specialized agents for each pipeline stage  
+- **Automated Data Cleaning**: Handle missing values, outliers, and data types  
+- **Intelligent EDA**: AI-powered exploratory data analysis with visualizations  
+- **Smart Model Selection**: Automatic algorithm selection based on problem type  
+- **Comprehensive Evaluation**: Detailed performance metrics and recommendations  
+- **AI-Powered Insights**: GPT-4o generates insights and recommendations throughout  
+
+---
 
 ## 🏗️ Architecture
 
 The pipeline consists of four specialized agents:
 
-1. **CleanerAgent**: Data preprocessing and cleaning
-2. **EDAAgent**: Exploratory data analysis and visualization
-3. **ModelTrainerAgent**: Model selection, training, and optimization
-4. **EvaluatorAgent**: Performance evaluation and reporting
+1. **CleanerAgent** – Data preprocessing and cleaning  
+2. **EDAAgent** – Exploratory data analysis and visualization  
+3. **ModelTrainerAgent** – Model selection, training, and optimization  
+4. **EvaluatorAgent** – Performance evaluation and reporting  
+
+---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-- Python 3.8+
-- OpenAI API key
+- Python 3.8+  
+- OpenAI API key  
 
 ### Installation
 
-1. Clone or download the codebase
+1. Clone or download the codebase  
 2. Run the setup script:
    ```bash
    chmod +x setup.sh
    ./setup.sh
-   ```
-3. Add your OpenAI API key to `.env`:
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   ```
 
 ### Usage
 
