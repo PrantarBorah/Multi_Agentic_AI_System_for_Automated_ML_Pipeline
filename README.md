@@ -1,5 +1,5 @@
 ## README.md
-```markdown
+
 # 🤖 AI Agent Data Pipeline
 
 An intelligent, multi-agent system that automates the entire machine learning pipeline from data cleaning to model evaluation using CrewAI orchestration and OpenAI GPT-4o.
@@ -188,5 +188,5 @@ For issues and questions:
 - Model deployment agent
 - Real-time monitoring capabilities
 - Integration with MLflow for experiment tracking
-```
+
 
