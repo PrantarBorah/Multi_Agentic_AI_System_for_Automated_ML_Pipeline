@@ -35,29 +35,6 @@ The pipeline consists of four specialized agents:
 - Python 3.8+  
 - OpenAI API key  
 
-### Installation
-
-1. Clone or download the codebase  
-2. Run the setup script:
-   ```bash
-   chmod +x setup.sh
-   ./setup.sh
-
-### Usage
-
-1. **Basic Usage** (with sample data):
-   ```bash
-   python app.py
-   ```
-
-2. **With your own data**:
-   ```python
-   from app import DataPipelineOrchestrator
-   
-   orchestrator = DataPipelineOrchestrator("path/to/your/data.csv")
-   orchestrator.run_pipeline()
-   ```
-
 ## 📊 Supported Data Formats
 
 - CSV files (.csv)
