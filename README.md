@@ -83,48 +83,7 @@ The pipeline generates several output files:
 
 - `OPENAI_API_KEY`: Required for AI-powered insights
 
-### Customization
 
-You can customize the pipeline by:
-
-1. **Modifying agent behavior**: Edit individual agent classes
-2. **Adding new agents**: Create new agents following the existing pattern
-3. **Changing orchestration**: Modify the CrewAI setup in `app.py`
-4. **Adding algorithms**: Extend the model selection in `ModelTrainerAgent`
-
-## 📝 Example Output
-
-```
-🚀 Starting AI Agent Data Pipeline...
-
-🧹 Step 1: Data Cleaning...
-📋 Original data shape: (1000, 5)
-✅ Cleaned data shape: (1000, 5)
-
-📊 Step 2: Exploratory Data Analysis...
-📊 Generating summary statistics...
-🔍 Analyzing data types...
-🔗 Computing correlations...
-📈 Creating visualizations...
-🎯 Detecting target variable...
-🧠 Generating AI insights...
-
-🤖 Step 3: Model Training...
-🎯 Training classification model...
-📊 RandomForest CV Score: 0.8234
-📊 LogisticRegression CV Score: 0.7891
-✅ Model training completed: RandomForestClassifier
-
-📈 Step 4: Model Evaluation...
-📊 Generating performance summary...
-📈 Creating evaluation visualizations...
-🔍 Computing detailed metrics...
-📋 Generating final report...
-💡 Creating recommendations...
-
-✅ Pipeline completed successfully!
-💾 Results saved to pipeline_results.json
-```
 
 ## 🎯 Use Cases
 
@@ -158,13 +117,5 @@ For issues and questions:
 2. Review the code documentation
 3. Create an issue with detailed error information
 
-## 🔮 Future Enhancements
-
-- Support for more data formats (Parquet, SQL databases)
-- Advanced feature engineering agents
-- Hyperparameter optimization agent
-- Model deployment agent
-- Real-time monitoring capabilities
-- Integration with MLflow for experiment tracking
 
 
